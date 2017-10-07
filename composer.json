@@ -1,0 +1,23 @@
+{
+    "name": "ndunks/light-core",
+    "description": "PHP Light Core Library",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Mochamad Arifin",
+            "email": "klampok.child@gmail.com"
+        }
+    ],
+    "require":{
+        "php": ">=5.6",
+        "ext-pcre": "*",
+        "ext-json": "*"
+    },
+    "autoload" : {
+        "psr-0": {
+            "" : "src"
+        }
+    }
+}
