@@ -1,4 +1,5 @@
 /.git/
 /vendor/
+/test
 /test/
 composer.lock
