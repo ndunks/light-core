@@ -1,4 +1,4 @@
-/.git
-/vendor
-/test
-/composer.lock
+/.git/
+/vendor/
+/test/
+composer.lock
