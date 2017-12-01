@@ -13,8 +13,9 @@ class Data extends Magical
 		if(file_exists($file))
 		{
 			$data	= json_decode(file_get_contents($file), true);
+			/* Error ignored!
 			if( json_last_error() != JSON_ERROR_NONE )
-				throw new \Exception("Error parsing $file: " . json_last_error_msg());
+				throw new \Exception("Error parsing $file: " . json_last_error_msg());*/
 
 			if( is_array($data) )
 			{
